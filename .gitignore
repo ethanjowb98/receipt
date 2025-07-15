@@ -1,0 +1,79 @@
+# Flutter/Dart/Pub related
+.dart_tool/
+.packages
+.pub-cache/
+build/
+flutter_*.png
+
+# Android related
+android/.gradle/
+android/.idea/
+android/local.properties
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# iOS related
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/ServiceDefinitions.json
+ios/Runner.xcworkspace/
+ios/Pods/
+ios/.symlinks/
+ios/build/
+ios/.flutter-plugins
+ios/.flutter-plugins-dependencies
+ios/.generated/
+*.xcuserstate
+
+# macOS related
+macos/Flutter/ephemeral/
+macos/Pods/
+macos/Runner.xcworkspace/
+
+# Linux related
+linux/flutter/ephemeral/
+
+# Web related
+web/manifest.json
+
+# Windows related
+windows/flutter/ephemeral/
+
+# VS Code settings
+.vscode/
+.idea/
+
+# Xcode related
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata
+
+# Others
+*.iml
+*.ipr
+*.iws
+
+# Environment files
+.env
+
+# Generated files
+*.lock
+
+# Crashlytics
+crashlytics-build.properties
+
+# Firebase
+firebase_app_id_file.json
+
+# Drift generated files (add if using Drift)
+lib/**/*.g.dart
+lib/**/*.moor.dart
+lib/**/*.drift.dart
+
+# Coverage reports
+coverage/
+
+# Flutter build outputs
+.dart_tool/
+build/
